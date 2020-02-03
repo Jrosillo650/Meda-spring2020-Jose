@@ -8,22 +8,24 @@
   <style>
       #my-flexbox{
           background-color: hotpink;
-          height: 500px;
           display: flex;
+          flex-direction: column
       }
   
       .flexbox-items{
           background-color: lightpink;
           flex-grow: 1;
           margin: 20px;
+          
       }
 
       #special-items {
           flex-grow: 2;
+          flex-shrink: 2;
       }
 
       #last-item {
-        flex-grow: 3;
+        
       }
   </style>
 
@@ -33,10 +35,13 @@
   
     <div id="my-flexbox">
         <div class="flexbox-items"></div>
+            <p>Hello there, how are you! 1</p>
         <div id="special-item" class="flexbox-items"></div>
+            <p>Hello there, how are you! 2</p> 
         <div class="flexbox-items"></div>
+            <p>Hello there, how are you! 3</p>
         <div id="last-item" class="flexbox-items"></div>
-
+        <p>Hello there, how are you! 4</p>
     </div>
 </body>
 </html>
