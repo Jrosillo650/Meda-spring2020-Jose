@@ -6,25 +6,32 @@ div#flex-gallery{
     display: flex;
     flex-wrap:wrap;
     align-items: flex-start;
+    vertical-align: top;
+    align-content: flex-start;
     
 }
 #flex-gallery > figure{
     background-color: red;
-    padding: 15px;
-    margin: 15px;
+    align-content: flex-start;
+    vertical-align:top;
+    justify-content: flex-start;
+    padding: 2;
 }
 
 figure{
     width: 220px;
+    vertical-align: top;
 }
 
  figure > img{
     width: 200px;
     border-radius: 15px;
+    vertical-align: top;
 }
 
 figure > img{
     border:solid green 10px;
+    vertical-align: top;
 
 }
 figcaption{
