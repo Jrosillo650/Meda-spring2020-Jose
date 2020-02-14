@@ -134,9 +134,60 @@ main {
 main h1 {
     font-size: 40px;
     text-align: center;
+    margin: 20px 0;
     text-transform: uppercase;
 }
 main p {
     font-size: 24px;
 }
 /*Main Default Styles End*/
+/*Homepage Style Start*/
+main#homepage p{
+    margin: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/*Homepage Style End*/
+
+/*Gallery Style Start*/
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#gallery div{
+    width: 200px;
+    
+}
+
+#gallery div img{
+    width: 200px;
+    margin-bottom: 20px;
+    
+}
+
+/*Gallery Style End*/
+
+
+/* Contact style start*/
+#contact-flexbox{
+    display: flex;
+    height: 300px;
+}
+
+#contact-flexbox div:first-child{
+    flex-grow: 3;
+    background-color: gray;
+}
+
+#contact-flexbox div:last-child{
+    flex-grow: 1;
+    background-color: silver;
+}
+
+
+
+/*Contact style end*/
