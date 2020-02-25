@@ -46,3 +46,15 @@ var roundedUp = Math.ceil(45.1);
 
 // Round down
 var roundedDown = Math.floor(45.9);
+
+//Math.random() returns value between 0 and .9infinity
+// We add a 1 so minimun is now 1, and we multiply 1000 so maximum is 100.9
+
+var someNumber = (Math.random() * 1000) + 1;
+
+var roundedRandomNumber = Math.floor(someNumber);
+// or use the existing variable:
+// someNumber = Math.floor(someNumber):
+
+// Print random number
+console.log(someNumber);
