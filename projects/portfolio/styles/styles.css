@@ -1,4 +1,35 @@
 body{
-  color: red;
+ background-color:silver;
   text-align: center;
+  color:black;
+  
 }
+
+body h1, h2, h3{
+color: red;
+}
+
+nav ul{
+  text-align: center;
+ 
+}
+nav ul li {
+  justify-content: space-between;
+  flex-direction: row;
+  background-color:red;
+  padding: 12px;
+  color: white;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+nav ul li a{
+  text-decoration: none;
+}
+nav ul li a:hover{
+  text-decoration: none;
+}
+
+
+
+
